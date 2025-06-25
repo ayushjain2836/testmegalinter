@@ -2,9 +2,11 @@ name: MegaLinter
 
 on:
   push:
-    branches: [main]  # or your default branch
+    branches: 
+      -main  
   pull_request:
-    branches: [main]
+    branches: 
+      -main
 
 jobs:
   megalinter:
